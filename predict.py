@@ -52,8 +52,6 @@ def make_prediction(args):
         results.append(y_mean)
     
     print(co/len(wav_paths))
-    #np.save(os.path.join('logs', args.pred_fn), np.array(results))
-    np.save('xception.npy',np.array(results))
 
 
 
